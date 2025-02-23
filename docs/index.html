@@ -3,6 +3,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <link rel="stylesheet" href="css/font.css">
 <link rel="stylesheet" href="css/styles.css">
 <style>
@@ -14,7 +16,7 @@
 <!-- MAIN (Center website) -->
 <div class="main">
 
-<h1>Scenario Launch Platform Support</h1>
+<h1>Scenario Launch Platform Support </h1>
 <hr>
 
 <h2>Categories</h2>
@@ -29,21 +31,21 @@
 <!-- Portfolio Gallery Grid -->
 <div class="row">
   <div class="column XSS">
-    <div class="content">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
       <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
       <h4>XSS 1</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
   <div class="column XSS">
-    <div class="content">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
       <h4>XSS 2</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
   <div class="column XSS">
-    <div class="content">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
       <h4>XSS 3</h4>
       <p>Lorem ipsum dolor..</p>
@@ -51,21 +53,21 @@
   </div>
   
   <div class="column sqlInjection">
-    <div class="content">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
       <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
       <h4>SQL Injection 1</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
   <div class="column sqlInjection">
-    <div class="content">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
       <h4>SQL Injection 2</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
   <div class="column sqlInjection">
-    <div class="content">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
       <h4>SQL Injection 3</h4>
       <p>Lorem ipsum dolor..</p>
@@ -73,21 +75,21 @@
   </div>
 
   <div class="column bruteForce">
-    <div class="content">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
       <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
       <h4>Brute Force 1</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
   <div class="column bruteForce">
-    <div class="content">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
       <h4>Brute Force 2</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
   <div class="column bruteForce">
-    <div class="content">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
       <h4>Brute Force 3</h4>
       <p>Lorem ipsum dolor..</p>
@@ -95,6 +97,29 @@
   </div>
 <!-- END GRID -->
 </div>
+
+<!-- Begining of modal -->
+
+<!-- The Modal -->
+<div id="id01" class="w3-modal" >
+  <div class="w3-modal-content" style="width:1310px; height:750px">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id01').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+      
+		<video width="1280" height="720" style="padding-top:25px; justify-content: center;" controls>
+		  <source src="videos/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+		  Your browser does not support HTML video.
+		</video>
+      
+      <p></p>
+    </div>
+  </div>
+</div>
+
+
+<!-- End of modal -->
+
 
 <!-- END MAIN -->
 </div>
