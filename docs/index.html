@@ -26,77 +26,176 @@
 <h2>Categories</h2>
 
 <div id="myBtnContainer">
+ <p>
   <button class="btn active" onclick="filterSelection('all')"> All Videos</button>
-  <button class="btn" onclick="filterSelection('sqlInjection')"> SQL injection</button>
-  <button class="btn" onclick="filterSelection('XSS')"> XSS</button>
+  <button class="btn" onclick="filterSelection('accountTakeover')"> Accout Takeover</button>
+  <button class="btn" onclick="filterSelection('anomaly')"> Anomaly</button>
   <button class="btn" onclick="filterSelection('bruteForce')"> Brute Force</button>
+ <button class="btn" onclick="filterSelection('xss')"> XSS</button>
+ <button class="btn" onclick="filterSelection('dataTampering')"> Data Tampering</button>
+ <button class="btn" onclick="filterSelection('dos')"> DOS</button>
+ <button class="btn" onclick="filterSelection('insiderThreat')"> Insider Threat</button>
+
+</p>
+<p>
+ <button class="btn" onclick="filterSelection('maliciousStoredProcedure')"> Malicious Stored Procedure</button>
+ <button class="btn" onclick="filterSelection('massiveGrants')"> Massive Grants</button>
+ <button class="btn" onclick="filterSelection('newGrants')"> New Grants</button>
+ <button class="btn" onclick="filterSelection('osCommandInjection')"> OS Command Injection</button>
+ <button class="btn" onclick="filterSelection('schemaTampering')"> Schema Tampering</button>
+ <button class="btn" onclick="filterSelection('sqlInjection')"> SQL Injection</button>
+ 	</p>
 </div>
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
-  <div class="column XSS">
+  <div class="column accountTakeover">
     <div class="content" onclick="document.getElementById('id01').style.display='block'">
       <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
-      <h4>XSS 1</h4>
+      <h4>Account Takeover</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
-  <div class="column XSS">
+  <div class="column anomaly">
     <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
-      <h4>XSS 2</h4>
-      <p>Lorem ipsum dolor..</p>
+      <h4>Anomaly</h4>
+      <p>Diverse Outlier</p>
     </div>
   </div>
-  <div class="column XSS">
+  <div class="column anomaly">
     <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
-      <h4>XSS 3</h4>
+      <h4>Anomaly</h4>
+      <p>Error Outlier</p>
+    </div>
+  </div>
+  <div class="column bruteForce">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+    <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>Brute Force</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
   
-  <div class="column sqlInjection">
+  <div class="column xss">
     <div class="content" onclick="document.getElementById('id01').style.display='block'">
       <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
-      <h4>SQL Injection 1</h4>
+      <h4>XSS</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
-  <div class="column sqlInjection">
+  <div class="column dataTampering">
     <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
-      <h4>SQL Injection 2</h4>
+      <h4>Data Tampering</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
-  <div class="column sqlInjection">
+  <div class="column dos">
     <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
-      <h4>SQL Injection 3</h4>
+      <h4>DOS</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
 
-  <div class="column bruteForce">
+  <div class="column insiderThreat">
     <div class="content" onclick="document.getElementById('id01').style.display='block'">
       <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
-      <h4>Brute Force 1</h4>
+      <h4>Insider Threat</h4>
+      <p>Data Leakage</p>
+    </div>
+  </div>
+  <div class="column insiderThreat">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+      <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>Insider Threat</h4>
+      <p>High Volume Error</p>
+    </div>
+  </div>
+  <div class="column maliciousStoredProcedure">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+    <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>Malicious Procedure</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
-  <div class="column bruteForce">
+  <div class="column massiveGrants">
     <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
-      <h4>Brute Force 2</h4>
+      <h4>Massive Grants</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
-  <div class="column bruteForce">
+  <div class="column newGrants">
     <div class="content" onclick="document.getElementById('id01').style.display='block'">
     <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
-      <h4>Brute Force 3</h4>
+      <h4>New Grants</h4>
+      <p>User deleted soon after it was granted privileges</p>
+    </div>
+  </div>
+  <div class="column newGrants">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+    <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>New Grants</h4>
+      <p>Recently granted user caused exceptions</p>
+    </div>
+  </div>
+  <div class="column newGrants">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+    <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>New Grants</h4>
+      <p>Recently granted user executed new SQL statement</p>
+    </div>
+  </div>
+  <div class="column newGrants">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+    <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>New Grants</h4>
+      <p>A User granted many new privileges to various users</p>
+    </div>
+  </div>
+  <div class="column newGrants">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+    <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>New Grants</h4>
+      <p>Privileges were revoked shortly after they were granted</p>
+    </div>
+  </div>
+  <div class="column osCommandInjection">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+    <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>OS Command Injection</h4>
       <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column schemaTampering">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+    <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>Schema Tampering</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column sqlInjection">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+    <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>SQL Injection</h4>
+      <p>Denial of Service</p>
+    </div>
+  </div>
+  <div class="column sqlInjection">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+    <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>SQL Injection</h4>
+      <p>Side channel</p>
+    </div>
+  </div>
+  <div class="column sqlInjection">
+    <div class="content" onclick="document.getElementById('id01').style.display='block'">
+    <img src="images/commingSoon.png" alt="commingSoon" style="width:100%">
+      <h4>SQL Injection</h4>
+      <p>Tautology</p>
     </div>
   </div>
 <!-- END GRID -->
